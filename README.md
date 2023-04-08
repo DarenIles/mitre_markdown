@@ -8,6 +8,12 @@ Works expecially well with obsidian https://obsidian.md/
 
 ![Screenshot](screenshot.png)
 
+## To use
+
+Just clone this repo.
+
+Markdown files are here: [Output](./output)
+
 ## To refresh
 
 1. Get the latest MITRE version (replacing version number)  [[https://attack.mitre.org/docs/enterprise-attack-v12.1/enterprise-attack-v12.1-techniques.xlsx]]
