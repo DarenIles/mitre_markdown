@@ -1,20 +1,25 @@
-# Title
+# MITRE in Markdown
 
-Small python script to generate markdown files from mitre ttp data.
+If you need your Mitre data in markdown...
 
-Using Mitre version V12.1
+Using Mitre version V12.1  https://attack.mitre.org/
 
-## Install
+Works expecially well with obsidian https://obsidian.md/
 
-If you need to refresh the mitre data download from here and convert to csv.
-[[https://attack.mitre.org/docs/enterprise-attack-v12.1/enterprise-attack-v12.1-techniques.xlsx]]
+![Screenshot](screenshot.png)
+
+## To refresh
+
+1. Get the latest MITRE version (replacing version number)  [[https://attack.mitre.org/docs/enterprise-attack-v12.1/enterprise-attack-v12.1-techniques.xlsx]]
+
+2.  Convert to csv
+
+3.  Make sure the csv field mapping match in the [script](generate.py)
+
+4.  Run
 
 ```
-```
-
-## Usage
-
-```
+python3 generate.py
 ```
 
 ## Contributing
