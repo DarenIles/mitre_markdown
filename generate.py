@@ -16,7 +16,7 @@ with open('mitre.csv', newline='') as csvfile:
     spamreader = csv.reader(csvfile, delimiter=',', quotechar='"')
     next(spamreader, None)  # skip the headers
     for row in spamreader:
-        t = {"id":row[0],"name":row[1],"description":row[2],"url":row[3],"tactics":row[5].split(','),"parent":row[9]}
+        t = {"id":row[0],"name":row[1],"description":row[2],"url":row[3],"tactics":row[5].split(','),"parent":row[6]}
 
         result = template.render(technique=t)
         with open(os.path.join("output",t["id"]+".md"), "w") as fh:
