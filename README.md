@@ -2,7 +2,7 @@
 
 If you need your Mitre data in markdown...
 
-Using Mitre version V13  https://attack.mitre.org/
+Using Mitre version V13.1  https://attack.mitre.org/
 
 Works expecially well with obsidian https://obsidian.md/
 
@@ -16,7 +16,7 @@ Markdown files are here: [Output](./output)
 
 ## To refresh
 
-1. Get the latest MITRE version (replacing version number)  [[https://attack.mitre.org/docs/enterprise-attack-v13.0/enterprise-attack-v13.0-techniques.xlsx]]
+1. Get the latest MITRE version (replacing version number)  [[https://attack.mitre.org/docs/enterprise-attack-v13.1/enterprise-attack-v13.0-techniques.xlsx]]
 
 2.  Convert to csv
 
