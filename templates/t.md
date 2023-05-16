@@ -1,5 +1,5 @@
 ---
-tag: mitre/{{ technique.id }}
+tag: mitre/{{ technique.id  | replace(".","/")}}
 ---
 
 **{{technique.name}}**
