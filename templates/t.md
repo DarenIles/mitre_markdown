@@ -1,32 +1,12 @@
----
-tag: mitre/{{ technique.id  | replace(".","/")}}
----
 
-**{{technique.name}}**
-
-Link: [{{technique.id}} - {{technique.name}}]({{technique.url}})
-{% if technique.parent %}
-Parent : [[{{technique.parent}}]]
-{% else %}
-Parent : None
-{%endif%}
+|Field|Value|
+|---|---|
+|Tactic|[[{{ technique.tactics|join(', ') }}]]|
+|Technique Name|**{{technique.name}}**|
+|ID|**{{technique.id}}**|
+|Parent|{% if technique.parent %}[[{{technique.parent}}]]{% else %}Parent : None{%endif%}|
+|Link|[{{technique.id}} - {{technique.name}}]({{technique.url}})|
 
 # Description
 
 {{technique.description}}
-
-# Tactics
-
-{% for x in technique.tactics %}
-[[{{ x }}]]
-{% endfor %}
-
-# Notes:
-
-## Linux
-
-Use Tool Template here
-
-## Windows
-
-Use Tool Template here
